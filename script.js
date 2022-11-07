@@ -413,29 +413,29 @@ formInputs.forEach((input) => {
 // End of Form
 
 // Slideshow
-const slideshow = document.querySelector(".slideshow");
+// const slideshow = document.querySelector(".slideshow");
 
-setInterval(() => {
-  const firstIcon = slideshow.firstElementChild;
+// setInterval(() => {
+//   const firstIcon = slideshow.firstElementChild;
 
-  firstIcon.classList.add("faded-out");
+//   firstIcon.classList.add("faded-out");
 
-  const thirdIcon = slideshow.children[3];
+//   const thirdIcon = slideshow.children[3];
 
-  thirdIcon.classList.add("light");
+//   thirdIcon.classList.add("light");
 
-  thirdIcon.previousElementSibling.classList.remove("light");
+//   thirdIcon.previousElementSibling.classList.remove("light");
 
-  setTimeout(() => {
-    slideshow.removeChild(firstIcon);
+//   setTimeout(() => {
+//     slideshow.removeChild(firstIcon);
 
-    slideshow.appendChild(firstIcon);
+//     slideshow.appendChild(firstIcon);
 
-    setTimeout(() => {
-      firstIcon.classList.remove("faded-out");
-    }, 500);
-  }, 500);
-}, 3000);
+//     setTimeout(() => {
+//       firstIcon.classList.remove("faded-out");
+//     }, 500);
+//   }, 500);
+// }, 3000);
 // End of Slideshow
 
 // Form Validation
