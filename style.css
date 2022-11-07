@@ -397,8 +397,8 @@ html{
   }
   
   .circle {
-    width: 22rem;
-    height: 22rem;
+    width: 18rem;
+    height: 18rem;
     border-radius: 50%;
     align-self: center;
     justify-self: center;
@@ -446,8 +446,8 @@ html{
 
   
   .main-circle {
-    width: 55rem;
-    height: 55rem;
+    width: 40rem;
+    height: 40rem;
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
@@ -455,8 +455,8 @@ html{
   }
   
   .main-circle:hover {
-    width: 75rem;
-    height: 75rem;
+    width: 60rem;
+    height: 60rem;
   }
   
   .main-circle img {
@@ -470,7 +470,7 @@ html{
   
   /* Featured Text */
   .featured-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     text-transform: uppercase;
     width: 0;
@@ -481,11 +481,11 @@ html{
   }
   
   .featured-text-1 {
-    margin: 0 auto 0 10rem;
+    margin: 0 auto 0 6rem;
   }
   
   .featured-text-2 {
-    margin: 0 10rem 0 auto;
+    margin: 0 6rem 0 auto;
   }
   /* End of Featured Text */
 
